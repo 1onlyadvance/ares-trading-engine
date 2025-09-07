@@ -1,0 +1,60 @@
+# Rust
+target/
+Cargo.lock
+**/*.rs.bk
+*.pdb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# API Keys (keep config.toml template but not with real keys)
+config.toml.local
+secrets/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+tmp/
+temp/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Performance data
+perf.data*
+
+# Trading data
+trading_data/
+backtest_results/
+portfolios/
+
+# Build artifacts
+dist/
+build/
