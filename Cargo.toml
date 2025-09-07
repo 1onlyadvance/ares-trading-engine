@@ -31,7 +31,7 @@ rust_decimal_macros = "1.36"
 
 # ARES ChronoFabric Engine (external dependency)
 # When deploying as standalone, this can reference the published crate or local monorepo
-# ares-chronofabric = { version = "0.1", optional = true }
+ares-chronofabric = { git = "https://github.com/1onlyadvance/CSF", branch = "feature/unified-sdk-implementation", optional = true }
 # ares-chronofabric = { path = "../ares-monorepo", optional = true }
 
 # Math
